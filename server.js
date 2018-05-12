@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 var htmlRoutes = require("./app/routing/htmlRoutes")(app);
+var apiRoutes = require("./app/routing/apiRoutes")(app)
 
 
 
